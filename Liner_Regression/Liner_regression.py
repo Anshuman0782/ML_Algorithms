@@ -56,24 +56,3 @@ plt.ylabel("Marks")
 plt.title("Linear Regression — Study Hours vs Marks")
 plt.legend()
 plt.show()
-
-
-
-Linear regression always forms this equation:
-
-Marks = (Slope × Hours_Studied) + Intercept
-
-
-For your output:
-
-Marks = 6.848 × Hours + 28.333
-
-
-
-
-| Value     | Meaning                       |
-| --------- | ----------------------------- |
-| Slope     | Each extra hour → +6.85 marks |
-| Intercept | Base marks ≈ 28 if hours = 0  |
-| R²        | Model is 99.47% accurate fit  |
-
