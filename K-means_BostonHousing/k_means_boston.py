@@ -5,9 +5,9 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
-# -----------------------------
+# ------------------------------
 # Step 1: Load Boston Housing dataset (CSV)
-# -----------------------------
+# ------------------------------
 df = pd.read_csv("BostonHousing.csv")
 
 # Remove target column (MEDV) for clustering
